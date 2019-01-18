@@ -72,9 +72,20 @@
  let nome = 'Luiz'
  let sNome = 'Felipe'
  let completo = nome + sNome
- document.write(nome + ' ' + sNome + ' Possui tamaho: ' + completo.length + '<br>') // retorna o tamanho da string
- document.write(completo.charAt(2) + '<br>') // Retorna o caracter da posição passada
- document.write(completo.substring(0, 3) + '<br>') // Retorna um trecho dessa string
- document.write(completo.toLowerCase() + '<br>') // Retorna a string em minúscula
- document.write(completo.toUpperCase() + '<br>') // Retorna a string em minúscula
+//  document.write(nome + ' ' + sNome + ' Possui tamaho: ' + completo.length + '<br>') // retorna o tamanho da string
+//  document.write(completo.charAt(2) + '<br>') // Retorna o caracter da posição passada
+//  document.write(completo.substring(0, 3) + '<br>') // Retorna um trecho dessa string
+//  document.write(completo.toLowerCase() + '<br>') // Retorna a string em minúscula
+//  document.write(completo.toUpperCase() + '<br>') // Retorna a string em minúscula
+ 
+/**
+ * Boolean
+ * true ou false
+ * 
+ * Se o valor é omitido ou é 0, -0, null, false, NaN, undefined "", 
+ * o objeto terá um valor inicial de false.
+ * 
+ */
+ let ligado = true
+ document.write(ligado)
  
