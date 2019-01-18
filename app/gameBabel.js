@@ -1,5 +1,7 @@
 "use strict";
 
+function _readOnlyError(name) { throw new Error("\"" + name + "\" is read-only"); }
+
 // document.write("Fui compilado pelo Babel 7 ")
 
 /**
@@ -33,6 +35,16 @@ var aa = "1";
  * É quando você utiliza a variável e declara depois, sem obter uma exceção.
  * Elas retornarão um valor undefined.
  */
+//  document.write(b)
+//  var b = 1
 
-document.write(b); //  var b = 1
+/**
+ * Constantes
+ * Uma constante não pode alterar seu valor por meio de uma atribuição ou 
+ * ao ser declarada novamente enquanto o script é executado. 
+ * Deve ser inicializada com um valor.
+ */
+
+var c = 1;
+c = (_readOnlyError("c"), 2);
 //# sourceMappingURL=gameBabel.js.map

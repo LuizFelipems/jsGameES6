@@ -31,6 +31,14 @@
  * É quando você utiliza a variável e declara depois, sem obter uma exceção.
  * Elas retornarão um valor undefined.
  */
- document.write(b)
+//  document.write(b)
 //  var b = 1
 
+/**
+ * Constantes
+ * Uma constante não pode alterar seu valor por meio de uma atribuição ou 
+ * ao ser declarada novamente enquanto o script é executado. 
+ * Deve ser inicializada com um valor.
+ */
+ const c = 1
+ c = 2 // Erro de sintaxe, e c é somente leitura
