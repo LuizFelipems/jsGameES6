@@ -19,6 +19,11 @@ var a = 1;
 /** let - permite que você declare variáveis limitando seu escopo no bloco*/
 
 var aa = "1";
+{
+  var ab = "2"; // ela respeita o escopo, só podendo ser acessada aqui dentro
+} //  document.write(aa)
+//  document.write(ab) // Uncaught ReferenceError: ab is not defined
+
 /** Convertendo strings para números */
 //  document.write(parseInt(aa))
 //  document.write(parseFloat(aa))
@@ -29,6 +34,5 @@ var aa = "1";
  * Elas retornarão um valor undefined.
  */
 
-document.write(b);
-var b = 1;
+document.write(b); //  var b = 1
 //# sourceMappingURL=gameBabel.js.map

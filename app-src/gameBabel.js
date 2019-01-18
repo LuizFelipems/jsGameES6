@@ -16,6 +16,11 @@
  var a = 1
  /** let - permite que você declare variáveis limitando seu escopo no bloco*/
  let aa = "1"
+ {
+     let ab = "2" // ela respeita o escopo, só podendo ser acessada aqui dentro
+ }
+//  document.write(aa)
+//  document.write(ab) // Uncaught ReferenceError: ab is not defined
 
  /** Convertendo strings para números */
 //  document.write(parseInt(aa))
@@ -27,5 +32,5 @@
  * Elas retornarão um valor undefined.
  */
  document.write(b)
- var b = 1
+//  var b = 1
 
