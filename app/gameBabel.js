@@ -1,7 +1,5 @@
 "use strict";
 
-function _readOnlyError(name) { throw new Error("\"" + name + "\" is read-only"); }
-
 // document.write("Fui compilado pelo Babel 7 ")
 
 /**
@@ -45,6 +43,24 @@ var aa = "1";
  * Deve ser inicializada com um valor.
  */
 
-var c = 1;
-c = (_readOnlyError("c"), 2);
+var c = 1; //  c = 2 // Erro de sintaxe, e c é somente leitura
+
+/**
+ * Números
+ * O objeto JavaScript Number é um objeto encapsulado que permite você trabalhar com valores numéricos.
+ */
+
+var num = 1.123123;
+var num2 = num.toFixed(2); // Retorna uma string representando o número na notação de ponto fixo.
+//  document.write(num2) 
+
+var n1 = 2;
+var n2 = '3';
+var n3 = 'ab'; //  document.write(n1/n2) // Aqui o js faz a conversão inplicitamente
+//  document.write(n1+n2) // Aqui o js faz a concatenação de strings 
+//  document.write(n1*n3) // Aqui o returna NaN
+//  document.write(n1 * Number(n2)) // Aqui convertemos a string para número
+//  document.write(n1 * +n2) // Aqui convertemos a string para número positivo
+
+document.write(n1 * -n2); // Aqui convertemos a string para número positivo
 //# sourceMappingURL=gameBabel.js.map

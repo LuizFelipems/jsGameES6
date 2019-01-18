@@ -41,4 +41,22 @@
  * Deve ser inicializada com um valor.
  */
  const c = 1
- c = 2 // Erro de sintaxe, e c é somente leitura
+//  c = 2 // Erro de sintaxe, e c é somente leitura
+
+/**
+ * Números
+ * O objeto JavaScript Number é um objeto encapsulado que permite você trabalhar com valores numéricos.
+ */
+ let num = 1.123123
+ let num2 = num.toFixed(2) // Retorna uma string representando o número na notação de ponto fixo.
+//  document.write(num2) 
+
+ let n1 = 2
+ let n2 = '3'
+ let n3 = 'ab'
+//  document.write(n1/n2) // Aqui o js faz a conversão inplicitamente
+//  document.write(n1+n2) // Aqui o js faz a concatenação de strings 
+//  document.write(n1*n3) // Aqui o returna NaN
+//  document.write(n1 * Number(n2)) // Aqui convertemos a string para número
+//  document.write(n1 * +n2) // Aqui convertemos a string para número positivo
+ document.write(n1 * -n2) // Aqui convertemos a string para número positivo
