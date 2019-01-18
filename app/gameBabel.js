@@ -61,6 +61,26 @@ var n3 = 'ab'; //  document.write(n1/n2) // Aqui o js faz a conversão inplicita
 //  document.write(n1*n3) // Aqui o returna NaN
 //  document.write(n1 * Number(n2)) // Aqui convertemos a string para número
 //  document.write(n1 * +n2) // Aqui convertemos a string para número positivo
+//  document.write(n1 * -n2) // Aqui convertemos a string para número positivo
 
-document.write(n1 * -n2); // Aqui convertemos a string para número positivo
+/**
+ * Strings
+ * Strings são úteis para guardar dados que podem ser representados em forma de texto.
+ * 
+ */
+//  let nome = 'Felipe "Ok"' // para imprimir as aspas no body
+//  let nome = 'Felipe \"Ok\" ' // para imprimir as aspas no body
+
+var nome = 'Luiz';
+var sNome = 'Felipe';
+var completo = nome + sNome;
+document.write(nome + ' ' + sNome + ' Possui tamaho: ' + completo.length + '<br>'); // retorna o tamanho da string
+
+document.write(completo.charAt(2) + '<br>'); // Retorna o caracter da posição passada
+
+document.write(completo.substring(0, 3) + '<br>'); // Retorna um trecho dessa string
+
+document.write(completo.toLowerCase() + '<br>'); // Retorna a string em minúscula
+
+document.write(completo.toUpperCase() + '<br>'); // Retorna a string em minúscula
 //# sourceMappingURL=gameBabel.js.map
