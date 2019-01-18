@@ -1,4 +1,4 @@
-document.write('Fui compilado pelo Babel 7')
+// document.write("Fui compilado pelo Babel 7 ")
 
 /**
  * Variáveis
@@ -20,3 +20,12 @@ document.write('Fui compilado pelo Babel 7')
  /** Convertendo strings para números */
 //  document.write(parseInt(aa))
 //  document.write(parseFloat(aa))
+
+/**
+ * Hoisting (lançada para o topo)
+ * É quando você utiliza a variável e declara depois, sem obter uma exceção.
+ * Elas retornarão um valor undefined.
+ */
+ document.write(b)
+ var b = 1
+

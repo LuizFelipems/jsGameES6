@@ -1,6 +1,7 @@
 "use strict";
 
-document.write('Fui compilado pelo Babel 7');
+// document.write("Fui compilado pelo Babel 7 ")
+
 /**
  * Variáveis
  * Você usa variáveis como nomes simbólicos para os valores em sua aplicação.
@@ -14,13 +15,20 @@ document.write('Fui compilado pelo Babel 7');
  * Symbol (novo em ECMAScript 6). Um tipo de dado cuja as instâncias são únicas e imutáveis.
  * Object. Objetos
  */
-
 var a = 1;
 /** let - permite que você declare variáveis limitando seu escopo no bloco*/
 
 var aa = "1";
 /** Convertendo strings para números */
+//  document.write(parseInt(aa))
+//  document.write(parseFloat(aa))
 
-document.write(parseInt(aa));
-document.write(parseFloat(aa));
+/**
+ * Hoisting (lançada para o topo)
+ * É quando você utiliza a variável e declara depois, sem obter uma exceção.
+ * Elas retornarão um valor undefined.
+ */
+
+document.write(b);
+var b = 1;
 //# sourceMappingURL=gameBabel.js.map
