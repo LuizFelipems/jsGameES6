@@ -1,0 +1,1 @@
+{"version":3,"sources":["../app-src/gameBabel.js"],"names":["console","log"],"mappings":";;AAAAA,OAAO,CAACC,GAAR,CAAY,qEAAZ","sourcesContent":["console.log('Fui compilado pelo Babel 7, que máximo3! - Compila mesmo automático');"],"file":"gameBabel.js"}
