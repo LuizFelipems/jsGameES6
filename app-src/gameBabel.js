@@ -98,10 +98,27 @@
  * Lógicos: &&  ||  !
  * Ternário: (expressao) ? se_true : se_false
  */
- document.write(`Aritméticos:  ${5 + 1}, ${5 - 1}, ${5 * 1}, ${10 / 2}; <br>
-                Comparação:  ${5 > 1}, ${5 < 1}, ${5 >= 1}, ${10 <= 2}; <br>
-                Igualdade:  ${10 == 10}, ${10 === '10'}, ${5 != 10}, ${10 != '10'}, ${10 !== '10'}; <br>
-                Lógicos:  ${5 > 1 && 5 < 10}, ${5 > 10 || 5 < 10}, ${!5 >= 1}; <br>
-                Ternário:  ${5 < 1 ? "Maior": "Menor"}; <br>
-                ` 
- )
+//  document.write(`Aritméticos:  ${5 + 1}, ${5 - 1}, ${5 * 1}, ${10 / 2}; <br>
+//                 Comparação:  ${5 > 1}, ${5 < 1}, ${5 >= 1}, ${10 <= 2}; <br>
+//                 Igualdade:  ${10 == 10}, ${10 === '10'}, ${5 != 10}, ${10 != '10'}, ${10 !== '10'}; <br>
+//                 Lógicos:  ${5 > 1 && 5 < 10}, ${5 > 10 || 5 < 10}, ${!5 >= 1}; <br>
+//                 Ternário:  ${5 < 1 ? "Maior": "Menor"}; <br>
+//                 ` 
+//  )
+
+
+/**
+ * Array
+ * Semelhante a listas
+ */
+ let lista = ['leite', 'água', 'banana']
+//  lista[3] = 'farofa'
+//  document.write(lista.length) // Retorna o tamanho do array
+//  document.write(lista[1]) // Acessa o elemento do índice passado
+
+// lista.pop() // Retira o ultimo elemento do array
+// lista.shift() // Retira o primeiro elemento do array
+// lista.unshift('pedra') // Adiciona um elemento no início do array
+// lista.push('pedra') // Adiciona um elemento no final do array
+// lista.splice(1, 2) // Retira o elemento a partir do indice e a quantidade de elementos após ele
+ document.write(lista) // Retorna o array
