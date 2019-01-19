@@ -87,5 +87,21 @@
  * 
  */
  let ligado = true
- document.write(ligado)
+//  document.write(ligado)
  
+/**
+ * Operadores
+ * 
+ * Aritméticos: +  -  *  /
+ * Comparação: >  <  >=  <=
+ * Igualdade: ==   ===(estritamente igual)  !=   !==(estritamente diferente)
+ * Lógicos: &&  ||  !
+ * Ternário: (expressao) ? se_true : se_false
+ */
+ document.write(`Aritméticos:  ${5 + 1}, ${5 - 1}, ${5 * 1}, ${10 / 2}; <br>
+                Comparação:  ${5 > 1}, ${5 < 1}, ${5 >= 1}, ${10 <= 2}; <br>
+                Igualdade:  ${10 == 10}, ${10 === '10'}, ${5 != 10}, ${10 != '10'}, ${10 !== '10'}; <br>
+                Lógicos:  ${5 > 1 && 5 < 10}, ${5 > 10 || 5 < 10}, ${!5 >= 1}; <br>
+                Ternário:  ${5 < 1 ? "Maior": "Menor"}; <br>
+                ` 
+ )

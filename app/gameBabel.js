@@ -88,6 +88,17 @@ var completo = nome + sNome; //  document.write(nome + ' ' + sNome + ' Possui ta
  * 
  */
 
-var ligado = true;
-document.write(ligado);
+var ligado = true; //  document.write(ligado)
+
+/**
+ * Operadores
+ * 
+ * Aritméticos: +  -  *  /
+ * Comparação: >  <  >=  <=
+ * Igualdade: ==   ===(estritamente igual)  !=   !==(estritamente diferente)
+ * Lógicos: &&  ||  !
+ * Ternário: (expressao) ? se_true : se_false
+ */
+
+document.write("Aritm\xE9ticos:  ".concat(5 + 1, ", ").concat(5 - 1, ", ").concat(5 * 1, ", ").concat(10 / 2, "; <br>\n                Compara\xE7\xE3o:  ").concat(5 > 1, ", ").concat(5 < 1, ", ").concat(5 >= 1, ", ").concat(10 <= 2, "; <br>\n                Igualdade:  ").concat(10 == 10, ", ").concat(10 === '10', ", ").concat(5 != 10, ", ").concat(10 != '10', ", ").concat(10 !== '10', "; <br>\n                L\xF3gicos:  ").concat(5 > 1 && 5 < 10, ", ").concat(5 > 10 || 5 < 10, ", ").concat(!5 >= 1, "; <br>\n                Tern\xE1rio:  ").concat(5 < 1 ? "Maior" : "Menor", "; <br>\n                "));
 //# sourceMappingURL=gameBabel.js.map
