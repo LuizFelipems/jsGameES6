@@ -127,16 +127,51 @@ var lista = ['leite', 'água', 'banana']; //  lista[3] = 'farofa'
  * São laços de condição, que serão executados até que a operação seja atendida
  * 
  */
+//  let lista2 = ['leite', 'água', 'banana', 'carne', 'arroz', 'fejão', 'mostarda', 'macarrão', 'pão']
+//  let i = 0
+//  while (i <= 10) {
+//     document.write(i + '<br>')
+//     i+=1
+//  }
+//  for (let i = 0; i < lista2.length; i++) {
+//      document.write(lista2[i] + '<br>')
+//  }
 
-var lista2 = ['leite', 'água', 'banana', 'carne', 'arroz', 'fejão', 'mostarda', 'macarrão', 'pão'];
-var i = 0;
+/**
+ * Estrutura Condicional
+ * if else
+ * switch case
+ */
 
-while (i <= 10) {
-  document.write(i + '<br>');
-  i += 1;
+var idade = 22;
+
+if (idade === 22) {
+  document.write('Você tem 22 anos!');
+} else if (idade >= 18) {
+  document.write('Maior de idade.');
+} else {
+  document.write('Menor de idade.');
 }
 
-for (var _i = 0; _i < lista2.length; _i++) {
-  document.write(lista2[_i] + '<br>');
+switch (idade) {
+  case 17:
+    document.write('tem 17' + '<br>');
+    break;
+
+  case 18:
+    document.write('tem 18' + '<br>');
+
+  default:
+    document.write('Não sei');
+    break;
+}
+
+for (var i = 0; i < 10; i++) {
+  if (i === 3) {
+    //  break // Ele para o loop quando a condição for atingida
+    continue; // Reinicia o loop quando a condição for atingida
+  }
+
+  document.write(i + '<br>');
 }
 //# sourceMappingURL=gameBabel.js.map
