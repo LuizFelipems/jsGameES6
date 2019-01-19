@@ -121,4 +121,22 @@
 // lista.unshift('pedra') // Adiciona um elemento no início do array
 // lista.push('pedra') // Adiciona um elemento no final do array
 // lista.splice(1, 2) // Retira o elemento a partir do indice e a quantidade de elementos após ele
- document.write(lista) // Retorna o array
+//  document.write(lista) // Retorna o array
+
+
+ /**
+  * Loops
+  * São laços de condição, que serão executados até que a operação seja atendida
+  * 
+  */
+ let lista2 = ['leite', 'água', 'banana', 'carne', 'arroz', 'fejão', 'mostarda', 'macarrão', 'pão']
+
+ let i = 0
+ while (i <= 10) {
+    document.write(i + '<br>')
+    i+=1
+ }
+
+ for (let i = 0; i < lista2.length; i++) {
+     document.write(lista2[i] + '<br>')
+ }

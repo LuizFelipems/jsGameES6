@@ -120,6 +120,23 @@ var lista = ['leite', 'água', 'banana']; //  lista[3] = 'farofa'
 // lista.unshift('pedra') // Adiciona um elemento no início do array
 // lista.push('pedra') // Adiciona um elemento no final do array
 // lista.splice(1, 2) // Retira o elemento a partir do indice e a quantidade de elementos após ele
+//  document.write(lista) // Retorna o array
 
-document.write(lista); // Retorna o array
+/**
+ * Loops
+ * São laços de condição, que serão executados até que a operação seja atendida
+ * 
+ */
+
+var lista2 = ['leite', 'água', 'banana', 'carne', 'arroz', 'fejão', 'mostarda', 'macarrão', 'pão'];
+var i = 0;
+
+while (i <= 10) {
+  document.write(i + '<br>');
+  i += 1;
+}
+
+for (var _i = 0; _i < lista2.length; _i++) {
+  document.write(lista2[_i] + '<br>');
+}
 //# sourceMappingURL=gameBabel.js.map
