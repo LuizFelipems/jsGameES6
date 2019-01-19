@@ -33,7 +33,8 @@ Criar o arquivo de configuração: .babelrc e inserir o código abaixo:
 
 
 
-
+*OBS: Template strings são acentos graves ``
+*OBS: Interpolação de Expressões ${expression} são utilizadas dentro de templates strings
 
 
 
